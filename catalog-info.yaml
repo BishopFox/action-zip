@@ -1,0 +1,14 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: action-zip
+  description: GitHub action create a zip archive
+  tags:
+    - action-fork
+    - docker
+    
+spec:
+  type: action
+  lifecycle: production
+  owner: group:consultingengineering
